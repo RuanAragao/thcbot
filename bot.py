@@ -84,7 +84,7 @@ async def on_callback_query(msg):
 
 
 
-BOT_ID = settings.BOT_ID   # Coloque aqui o id do seu bot, utilizado pra detectar quando ele é adicionado em algum grupo
+BOT_ID = settings.TELEGRAM_API_KEY[:9]   # Id do seu bot, utilizado pra detectar quando ele é adicionado em algum grupo
 
 TOKEN = settings.TELEGRAM_API_KEY  # Pega a token via linha de comando!
 
